@@ -1,4 +1,4 @@
 FROM python:2.7
-ADD . /app
-WORKDIR /app
+ADD . /demo
+WORKDIR /demo
 RUN pip install -r requirements.txt
